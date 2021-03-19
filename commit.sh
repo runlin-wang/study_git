@@ -6,16 +6,22 @@
 # Last Modified By  : Leo <alin.run@foxmail.com>
 
 # write some text
+fortune > last_msg
 date >> one.txt
-fortune >> one.txt
+cat last_msg >> one.txt
+
+# \n
 echo >> one.txt
+
+msg=`cat last_msg`
+
 
 # add 
 git add .
 
 # commit 
-# fortune | git commit -m 
+git commit -m "$msg"
 
 # push
-# git push
+git push
 
