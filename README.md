@@ -2,7 +2,7 @@
 
 ## 目录结构
 
-.
+.  
 ├── README.md  
 ├── commit.sh  
 ├── last_msg  
