@@ -1,5 +1,15 @@
-# study_git
+# auto commit
 
-study git for lanqiao.cn  
+## 目录结构
 
-Git 操作其实很简单，只需多加练习，在实际应用中逐渐领悟它的设计哲学。
+.
+├── README.md  
+├── commit.sh  
+├── last_msg  
+└── one.txt  
+
+
+使用 bash 脚本 commit.sh 自动提交
+
+使用 `fortune` 命令
+ 
