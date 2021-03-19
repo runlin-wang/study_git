@@ -14,8 +14,8 @@ echo >> one.txt
 git add .
 
 # commit 
-printf "\"" && fortune && printf "\"" | git commit -m 
+# fortune | git commit -m 
 
 # push
-git push
+# git push
 
