@@ -5,6 +5,8 @@
 # Last Modified Date: 20.03.2021
 # Last Modified By  : Leo <alin.run@foxmail.com>
 
+cd ~/git/study_git
+
 # write some text
 fortune > last_msg
 date >> one.txt
